@@ -636,6 +636,9 @@ ol {
   line-height: 1.88;
 }
 .modal-drop-section {
+  /* top: 50%;
+  left: 50%;
+  transform: transition (-50%, -50%); */
   position: fixed;
   align-items: center;
   justify-content: center;
@@ -649,11 +652,7 @@ ol {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-<<<<<<< HEAD
 .modal-drop-section .is-hidden {
-=======
-.modal-drop-section.is-hidden {
->>>>>>> f273d5d401b6a22cc39ebc5142cd65a76b551679
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -691,8 +690,5 @@ ol {
   height: 11px;
   fill: black;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> f273d5d401b6a22cc39ebc5142cd65a76b551679
 /* eof */
